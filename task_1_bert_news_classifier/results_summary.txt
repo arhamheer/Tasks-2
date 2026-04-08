@@ -1,0 +1,23 @@
+
+=== TASK 1: BERT NEWS CLASSIFIER - SUMMARY ===
+
+Model: bert-base-uncased
+Dataset: AG News (1000 training samples, 7600 test samples)
+Training Epochs: 3
+Batch Size: 32
+
+PERFORMANCE METRICS:
+- Accuracy: 0.8363 (83.63%)
+- F1-Score (Macro): 0.8361
+- F1-Score (Weighted): 0.8361
+
+F1-SCORE PER CLASS:
+  - World: 0.8468
+  - Sports: 0.9405
+  - Business: 0.7507
+  - Technology: 0.8061
+
+KEY INSIGHTS:
+- Successfully fine-tuned BERT for multi-class news classification
+- Model achieves strong performance across all categories
+- Ready for deployment using Streamlit or Gradio

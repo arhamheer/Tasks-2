@@ -1,0 +1,362 @@
+[
+  {
+    "ticket": "Can I upgrade my plan without losing my current data?",
+    "true_label": "General",
+    "top3_predictions": [
+      [
+        "Account",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Technical",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "I want to delete my account permanently. What's the process?",
+    "true_label": "Account",
+    "top3_predictions": [
+      [
+        "Account",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Technical",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "Do you have a mobile app? Where can I download it?",
+    "true_label": "General",
+    "top3_predictions": [
+      [
+        "General",
+        1.0
+      ],
+      [
+        "Account",
+        0.0
+      ],
+      [
+        "Technical",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "I was charged twice for my subscription this month. Can you refund the duplicate charge?",
+    "true_label": "Billing",
+    "top3_predictions": [
+      [
+        "Billing",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Account",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "I forgot my password. How can I reset it?",
+    "true_label": "Account",
+    "top3_predictions": [
+      [
+        "Account",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Technical",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "I'm getting a connection timeout error. Is the server down?",
+    "true_label": "Technical",
+    "top3_predictions": [
+      [
+        "Technical",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Account",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "Can I change my payment plan? I want to downgrade to a cheaper option.",
+    "true_label": "Billing",
+    "top3_predictions": [
+      [
+        "Billing",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Account",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "I need an invoice for my recent purchase. The amount seems incorrect.",
+    "true_label": "Billing",
+    "top3_predictions": [
+      [
+        "Billing",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Account",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "I cannot download my data export. The file seems corrupted.",
+    "true_label": "Technical",
+    "top3_predictions": [
+      [
+        "Technical",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Account",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "My account is locked. How do I unlock it?",
+    "true_label": "Account",
+    "top3_predictions": [
+      [
+        "Account",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Technical",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "Can I upgrade my plan without losing my current data?",
+    "true_label": "General",
+    "top3_predictions": [
+      [
+        "Account",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Technical",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "I want to delete my account permanently. What's the process?",
+    "true_label": "Account",
+    "top3_predictions": [
+      [
+        "Account",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Technical",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "I cannot download my data export. The file seems corrupted.",
+    "true_label": "Technical",
+    "top3_predictions": [
+      [
+        "Technical",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Account",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "Can I upgrade my plan without losing my current data?",
+    "true_label": "General",
+    "top3_predictions": [
+      [
+        "Account",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Technical",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "I cannot download my data export. The file seems corrupted.",
+    "true_label": "Technical",
+    "top3_predictions": [
+      [
+        "Technical",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Account",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "Can I change my payment plan? I want to downgrade to a cheaper option.",
+    "true_label": "Billing",
+    "top3_predictions": [
+      [
+        "Billing",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Account",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "The website is loading very slowly. Can you optimize performance?",
+    "true_label": "Technical",
+    "top3_predictions": [
+      [
+        "Technical",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Account",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "How do I update my profile information and contact details?",
+    "true_label": "Account",
+    "top3_predictions": [
+      [
+        "Account",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Technical",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "Can I change my payment plan? I want to downgrade to a cheaper option.",
+    "true_label": "Billing",
+    "top3_predictions": [
+      [
+        "Billing",
+        1.0
+      ],
+      [
+        "General",
+        0.0
+      ],
+      [
+        "Account",
+        0.0
+      ]
+    ]
+  },
+  {
+    "ticket": "Do you have a mobile app? Where can I download it?",
+    "true_label": "General",
+    "top3_predictions": [
+      [
+        "General",
+        1.0
+      ],
+      [
+        "Account",
+        0.0
+      ],
+      [
+        "Technical",
+        0.0
+      ]
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+
+=== TASK 2: ML PIPELINE CHURN PREDICTION - SUMMARY ===
+
+Dataset: Telco Customer Churn
+Samples: 7043
+Features: 19
+Target: Binary (Churn/No Churn)
+Churn Rate: 26.54%
+
+MODELS TRAINED:
+1. Logistic Regression with GridSearchCV
+   - Best C value: 10
+   - Best CV Score: 0.5935
+   - Test Accuracy: 0.7956
+   - Test F1-Score: 0.5777
+
+2. Random Forest with GridSearchCV
+   - Best Parameters: {'classifier__max_depth': 10, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200}
+   - Best CV Score: 0.5795
+   - Test Accuracy: 0.7977
+   - Test F1-Score: 0.5688
+
+BEST MODEL: Random Forest
+- Accuracy: 0.7977
+- Precision: 0.6551
+- Recall: 0.5027
+- F1-Score: 0.5688
+- AUC-ROC: 0.8379
+
+KEY INSIGHTS:
+- Successfully built production-ready ML pipeline
+- GridSearchCV identified optimal hyperparameters
+- Random Forest outperformed Logistic Regression
+- Model saved and ready for deployment

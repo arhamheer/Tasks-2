@@ -1,0 +1,266 @@
+# Python Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+envs/
+.python-version
+
+# Python Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.jupyter/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PyCharm
+.idea/
+*.iml
+out/
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+*.code-workspace
+.pylintrc
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment Variables and Secrets
+.env
+.env.local
+.env.*.local
+config/secrets/
+secrets.json
+credentials.json
+api_keys.txt
+
+# Large Model Files and Pre-trained Weights
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.h5
+*.model
+*.weights
+*.joblib
+models/
+checkpoints/
+weights/
+pretrained/
+bert_model/
+bert_news_classifier/
+saved_models/
+
+# Dataset Files (Large)
+data/
+datasets/
+raw_data/
+processed_data/
+temp_data/
+*.csv
+*.xlsx
+*.xls
+*.jsonl
+images/
+house_images/
+
+# Output and Log Files
+outputs/
+results/
+logs/
+*.log
+runs/
+wandb/
+mlruns/
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+.cache/
+cache/
+
+# Test Files
+test_data/
+test_outputs/
+
+# IDE Generated Files
+*.project
+*.classpath
+.c9/
+.settings/
+*.sublime-settings
+
+# OS Generated Files
+.Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Test Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Documentation Build
+docs/_build/
+site/
+
+# mypy Cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Streamlit
+.streamlit/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# LangChain and RAG Vector Stores
+embeddings/
+vector_stores/
+faiss_index/
+*.index
+*.faiss
+
+# Conversation and Chat History
+conversation_logs/
+chat_history/
+conversation_*.json
+
+# API Configuration
+.apirc
+openai_config.json
+
+# Celery
+celerybeat-schedule
+
+# Archive Files
+*.zip
+*.rar
+*.tar.gz
+*.tar.bz2
+*.7z
+
+# Temporary Backup Files
+*.~
+*.bak
+.backup/
+
+# Notebook-specific outputs
+.ipynb_checkpoints
+*_checkpoint.ipynb
+
+# Experimental Work
+experiments/
+scratch/
+dev/
+test_notebooks/
+
+# Build Artifacts
+dist/
+build/
+*.whl
+*.egg
+
+# Partial/In-Progress Files
+*.partial
+*.incomplete
+.incomplete/
+
+# Models and checkpoints
+*.pth
+*.pt
+*.bin
+models/
+checkpoints/
+
+# Generated files
+results/
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Vector stores
+faiss_index/
+*.pkl
+
+# Images
+house_images/
+*.jpg
+*.png
+
+# Cache
+.cache/
+*.cache
+
+# OS
+Thumbs.db
+.DS_Store

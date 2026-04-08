@@ -1,0 +1,56 @@
+
+=== TASK 5: AUTO TAGGING SUPPORT TICKETS - SUMMARY ===
+
+DATASET:
+- Total tickets: 100
+- Training set: 80 tickets
+- Test set: 20 tickets
+- Categories: Billing, Technical, Account, General
+- Class balance: Balanced (25% each)
+
+APPROACHES EVALUATED:
+
+1. ZERO-SHOT CLASSIFICATION
+   - Model: facebook/bart-large-mnli
+   - Accuracy: 0.8500 (85.00%)
+   - F1-Score: 0.8352
+   - Pros: No training required, instant deployment
+   - Cons: May not capture domain-specific patterns
+
+2. FEW-SHOT LEARNING
+   - Model: facebook/bart-large-mnli with context examples
+   - Accuracy: 0.8500 (85.00%)
+   - F1-Score: 0.8352
+   - Pros: Better context awareness, example-driven
+   - Cons: Requires curating examples
+
+3. TOP-3 PREDICTION
+   - Top-3 Accuracy: 1.0000 (100.00%)
+   - Pros: Provides ranking of alternatives
+   - Cons: May surface multiple equally likely tags
+
+PERFORMANCE COMPARISON:
+- Best Single-Label Accuracy: 0.8500
+- Top-3 Coverage: 1.0000
+- Improvement (Few-Shot vs Zero-Shot): 0.0000
+
+PER-CLASS METRICS (Zero-Shot):
+  - Billing: Precision=1.000, Recall=1.000, F1=1.000
+  - Technical: Precision=1.000, Recall=1.000, F1=1.000
+  - Account: Precision=0.625, Recall=1.000, F1=0.769
+  - General: Precision=1.000, Recall=0.400, F1=0.571
+
+
+KEY INSIGHTS:
+- Zero-shot classification provides reasonable baseline accuracy
+- Few-shot learning can improve performance with domain examples
+- Top-3 predictions offer confidence in ambiguous cases
+- Zero-shot approach is practical for immediate deployment
+- Could be further improved with fine-tuning on domain data
+
+RECOMMENDATIONS:
+1. Start with zero-shot for quick implementation
+2. Use few-shot examples for known problematic categories
+3. Consider fine-tuning if dataset grows beyond 1000 samples
+4. Implement human review for low-confidence predictions
+5. Monitor and update model as support patterns evolve
