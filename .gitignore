@@ -82,6 +82,8 @@ config/secrets/
 secrets.json
 credentials.json
 api_keys.txt
+PROJECT_MANIFEST.md
+SETUP_GUIDE.md
 
 # Large Model Files and Pre-trained Weights
 *.pt
