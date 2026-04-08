@@ -239,7 +239,6 @@ checkpoints/
 # Generated files
 results/
 outputs/
-*.png
 *.jpg
 *.jpeg
 *.log
